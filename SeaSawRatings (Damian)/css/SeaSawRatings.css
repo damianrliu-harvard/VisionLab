@@ -1,0 +1,309 @@
+html, body {
+  height:100%;
+  width: 100%;
+}
+
+#experimentSpace {
+  top: 5%;
+  position: relative;
+}
+
+#container{
+  position: relative;
+  left: 50%;
+  width: 1000px;
+  height: 700px;
+  margin-left: -500px;
+}
+
+#ubarWell {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -320px;
+  margin-top: -200px;
+}
+
+#ubarBox {
+  margin: 50px;
+  width: 500px;
+  height: 100px;
+  position: relative;
+  text-align: center;
+}
+
+#barBox {
+  left: 125px;
+  width: 250px;
+  height: 8px;
+  position: relative;
+}
+
+#imageholder {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  margin-top: -206px;
+  height: 512px;
+  /* border: 5px solid black; */
+}
+
+#video {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  margin-top: -200px;
+  margin-left: -200px;
+  width: 400px;
+  height: 400px;
+  border: 5px solid black;
+}
+
+#instructionsbox {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  width: 650px;
+  margin-left: -325px;
+  font-weight: bold;
+  color: black;
+  background-color: #f5f5f5;
+  font-size: 18px;
+  text-align: center;
+  line-height: 20px;
+  display: none;
+}
+
+#myCarousel {
+  display: none;
+  text-align: center;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel-control {
+  margin-top: 7.5%;
+  top: 100%;
+}
+
+.carousel-control.left {
+  margin-left: 25%;
+}
+
+.carousel-control.right {
+  margin-right: 25%;
+}
+
+.carousel-control {
+  text-shadow: 0 0px 5px #000;
+  color: #f5f5f5;
+}
+
+.carousel-indicators {
+  margin-top: 6.5%;
+  top: 100%;
+}
+
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #e3e3e3;
+  pointer-events: none;
+}
+
+.carousel-indicators .active {
+  background-color: #f5f5f5;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+}
+
+.item {
+    display: none;
+    position: relative;
+    height: 100px;
+}
+
+#beginStudy {
+  display: none;
+  position: absolute;
+  width: 330px;
+  top: 40%;
+  left: 50%;
+  margin-left: -165px;
+}
+
+#prompt{
+  display: none;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 600px;
+  margin-left: -300px;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+}
+
+#continueButton{
+  display: none;
+  position: absolute;
+  top: 85%;
+  left: 45%;
+}
+
+#sliderBox{
+  position: absolute;
+  display: block;
+  top: 85%;
+  left: 50%;
+  width: 900px;
+  margin-left:-450px;
+}
+
+#saveSlider{
+  display: none;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  width: 150px;
+  margin-left: -75px;
+  z-index: 100;
+}
+
+#slider.ui-state-default, .ui-widget-content .ui-state-default {
+  border: 1px solid black;
+}
+#slider.ui-widget.ui-widget-content {
+  border: 1px solid #000000;
+}
+#slider.ui-slider .ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  width: 1.2em;
+  height: 1em;
+  cursor: default;
+}
+
+#slider.ui-slider-horizontal {
+  height: .6em;
+}
+
+#sliderSteps {
+  border: 1px solid transparent;
+  position: relative;
+  width: 900px;
+  height: 30px;
+}
+
+#sliderStepLeft {
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  width: 40%;
+}
+
+#sliderStepRight {
+  display: inline-block;
+  text-align: center;
+  margin-left: 19.5%;
+  font-size: 12px;
+  width: 40%;
+}
+
+#sliderInfo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#slider {
+  margin-left: -300px;
+  width: 600px;
+  left: 50%;
+}
+
+#blockPlusTrial {
+  display: none;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 500px;
+  margin-left: -250px;
+  text-align: center;
+  font-size: 28px;
+  color: black;
+}
+
+#feedbackbox{
+  display: none;
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+  text-align: center;
+}
+
+#feedback {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+#dataSubmission {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+#dataSubmitInstructions{
+  position: absolute;
+  display: none;
+  top: 150px;
+  left: 50%;
+  width: 620px;
+  margin-left: -310px;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+}
+
+#dataSubmit{
+  position: absolute;
+  display: none;
+  /*top: 410px;*/
+  top: 185px;
+  left: 50%;
+  width: 120px;
+  font-size: 18px;
+  margin-left: -60px;
+  text-align: center;
+}
+
+#completionCodeBox{
+  position: absolute;
+  display: none;
+  top: 185px;
+  left: 50%;
+  width: 120px;
+  margin-left: -60px;
+  text-align: center;
+}
+
+#finalInstructions{
+  position: absolute;
+  display: none;
+  top: 235px;
+  left: 50%;
+  width: 620px;
+  margin-left: -310px;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
